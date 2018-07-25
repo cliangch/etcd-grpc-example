@@ -2,9 +2,9 @@ package discover
 
 import (
 	"context"
+	"fmt"
 	"strings"
 	"time"
-	"fmt"
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"

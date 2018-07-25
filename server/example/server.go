@@ -1,8 +1,9 @@
 package example
 
 import (
-	"golang.org/x/net/context"
 	"etcd-grpc-example/server/rpc"
+
+	"golang.org/x/net/context"
 )
 
 type exampleServer struct{}

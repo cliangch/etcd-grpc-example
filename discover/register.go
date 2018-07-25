@@ -1,10 +1,10 @@
 package discover
 
 import (
-	"time"
 	"context"
-	"log"
 	"fmt"
+	"log"
+	"time"
 
 	"github.com/coreos/etcd/clientv3"
 )

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"log"
 
-	"google.golang.org/grpc/resolver"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/balancer/roundrobin"
+	"google.golang.org/grpc/resolver"
 
-	"etcd-grpc-example/discover"
 	"etcd-grpc-example/client/rpc"
+	"etcd-grpc-example/discover"
 	"golang.org/x/net/context"
 )
 

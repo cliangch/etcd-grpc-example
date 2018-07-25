@@ -1,17 +1,17 @@
 package main
 
 import (
-	"net"
 	"log"
+	"net"
 	"os"
 	"os/signal"
 	"syscall"
 
 	"google.golang.org/grpc"
 
-	"etcd-grpc-example/server/rpc"
 	"etcd-grpc-example/discover"
 	"etcd-grpc-example/server/example"
+	"etcd-grpc-example/server/rpc"
 )
 
 func main() {
