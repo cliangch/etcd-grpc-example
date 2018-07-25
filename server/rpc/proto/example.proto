@@ -1,0 +1,19 @@
+// protoc -I . --go_out=plugins=grpc:. ./example.proto
+
+syntax = "proto3";
+
+// 指定go包名
+package rpc;
+
+service example{
+   rpc Example(Request) returns (Response) {}
+}
+
+
+message Request {
+   string request = 1;
+}
+
+message Response {
+   string response = 1;
+}
