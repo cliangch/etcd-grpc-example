@@ -5,12 +5,12 @@ import (
 	"log"
 
 	"google.golang.org/grpc"
+	"golang.org/x/net/context"
 	"google.golang.org/grpc/balancer/roundrobin"
 	"google.golang.org/grpc/resolver"
 
 	"etcd-grpc-example/client/rpc"
 	"etcd-grpc-example/discover"
-	"golang.org/x/net/context"
 )
 
 var (
